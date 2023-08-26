@@ -1,4 +1,4 @@
-import { useFrame, useLoader } from '@react-three/fiber';
+import { useFrame, useLoader } from '@react-three/fiber/native';
 import { TextureLoader } from 'expo-three';
 import { useLayoutEffect, useRef } from 'react';
 import { Mesh } from 'three';

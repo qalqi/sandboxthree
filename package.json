@@ -12,6 +12,7 @@
     "@react-native-community/slider": "^4.4.3",
     "@react-navigation/native": "^6.1.7",
     "@react-navigation/native-stack": "^6.9.13",
+    "@react-three/drei": "9.75.0",
     "@react-three/fiber": "^8.13.7",
     "@types/react": "~18.2.14",
     "@typescript-eslint/eslint-plugin": "^6.4.0",
