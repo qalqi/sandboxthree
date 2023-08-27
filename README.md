@@ -1,4 +1,4 @@
-# React Three Fiber Example
+# React Native ThreeJs React Three Fiber Sanbox
 
 <p>
   <!-- iOS -->
