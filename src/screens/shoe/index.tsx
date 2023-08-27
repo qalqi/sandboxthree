@@ -1,9 +1,10 @@
 import { Canvas } from "@react-three/fiber/native";
 import React, { Suspense, useEffect, useState } from "react";
 import { ActivityIndicator, View } from "react-native";
-import { Experience } from "../../components/Experience";
 
-const HomeScreen = ({ navigation }) => {
+import NikeShoeWalk from "../../models/shoe2";
+
+const ShoeScreen = ({ navigation }) => {
   return (
     <View
       style={{
@@ -26,13 +27,13 @@ const HomeScreen = ({ navigation }) => {
           </View>
         }
       >
-        <Canvas shadows camera={{ position: [0, 0, 8], fov: 42 }}>
-          <color attach="background" args={["#ececec"]} />
-          <Experience />
+        <Canvas>
+          <ambientLight />
+          <NikeShoeWalk />
         </Canvas>
       </Suspense>
     </View>
   );
 };
 
-export default HomeScreen;
+export default ShoeScreen;

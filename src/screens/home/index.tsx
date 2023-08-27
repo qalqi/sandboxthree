@@ -1,38 +1,39 @@
 import { Canvas } from "@react-three/fiber/native";
 import React, { Suspense, useEffect, useState } from "react";
-import { ActivityIndicator, View } from "react-native";
+import { ActivityIndicator, TouchableOpacity, View, Text } from "react-native";
 
-import NikeShoeWalk from "../../models/shoe2";
+//import { useNavigation } from "@react-navigation/native";
 
 const HomeScreen = ({ navigation }) => {
-  
+  //const navigation = useNavigation();
   return (
     <View
       style={{
         flex: 1,
-        backgroundColor: "yellow",
-        justifyContent: "space-between",
+        alignItems: "center",
+        justifyContent: "center",
+        backgroundColor: "white",
         paddingHorizontal: 10,
       }}
     >
-      <Suspense
-        fallback={
-          <View
-            style={{
-              flex: 1,
-              alignItems: "center",
-              justifyContent: "center",
-            }}
-          >
-            <ActivityIndicator size="large" color="#000" />
-          </View>
-        }
-      >
-        <Canvas>
-          <ambientLight />
-          <NikeShoeWalk />
-        </Canvas>
-      </Suspense>
+      <TouchableOpacity onPress={() => navigation.navigate("Shoe")}>
+        <Text
+          style={{
+            fontSize: 18,
+          }}
+        >
+          Nike Shoe
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate("Avatar")}>
+        <Text
+          style={{
+            fontSize: 18,
+          }}
+        >
+          Ready me Avatar
+        </Text>
+      </TouchableOpacity>
     </View>
   );
 };

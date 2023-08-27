@@ -15,6 +15,8 @@ export const Experience = () => {
   const texture = useTexture(BG);
   const viewport = useThree((state) => state.viewport);
   console.log({ viewport });
+  console.log("Experience");
+
   return (
     <>
       {/* <OrbitControls /> */}
