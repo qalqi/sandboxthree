@@ -1,0 +1,78 @@
+# File produced by Open Asset Import Library (http://www.assimp.sf.net)
+# (assimp v5.2.3481089591)
+
+newmtl Wolf3D_Eye
+Kd 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+map_Kd *0
+
+newmtl Wolf3D_Skin
+Kd 1 1 1
+Ke 0 0 0
+d 1
+Ns 90
+illum 2
+map_Kd *1
+
+newmtl Wolf3D_Teeth
+Kd 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+map_Kd *2
+
+newmtl Wolf3D_Body
+Kd 1 1 1
+Ke 0 0 0
+d 1
+Ns 91.0585327
+illum 2
+map_Kd *3
+bump *4
+map_bump *4
+
+newmtl Wolf3D_Outfit_Bottom
+Kd 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+map_Kd *5
+bump *7
+map_bump *7
+
+newmtl Wolf3D_Outfit_Footwear
+Kd 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+map_Kd *8
+bump *10
+map_bump *10
+
+newmtl Wolf3D_Outfit_Top
+Kd 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+map_Kd *11
+bump *13
+map_bump *13
+
+newmtl Wolf3D_Hair
+Kd 1 1 1
+Ke 0 0 0
+d 1
+Ns 24.5029163
+illum 2
+map_Kd *14
+bump *15
+map_bump *15
+
+newmtl $Material_8
+Kd 1 1 1
+Ke 0 0 0
+d 1
+illum 1
+

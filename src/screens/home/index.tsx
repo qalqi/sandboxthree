@@ -31,7 +31,16 @@ const HomeScreen = ({ navigation }) => {
             fontSize: 18,
           }}
         >
-          Ready me Avatar
+          Ready me Avatar Glb
+        </Text>
+      </TouchableOpacity>
+      <TouchableOpacity onPress={() => navigation.navigate("AvatarObj")}>
+        <Text
+          style={{
+            fontSize: 18,
+          }}
+        >
+          Ready me Avatar Obj
         </Text>
       </TouchableOpacity>
     </View>
